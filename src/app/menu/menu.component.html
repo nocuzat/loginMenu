@@ -1,0 +1,12 @@
+<div class="navbar" >
+  <a *ngFor ="let item of arrayOne" (click) = "onNavigate(item)">{{item.name}}</a>
+</div>
+<br><br>
+
+<footer>
+  <p>Contact information: 0617743483</p>
+  <p>Email adress: nocuzat@gmail.com</p>
+  <p>Created By Thulani Nocuza</p>
+</footer>
+
+<router-outlet></router-outlet>
