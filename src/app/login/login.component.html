@@ -1,16 +1,14 @@
 <br>
-<style>
-  input.ng-invalid {
-      background-color:pink;
-  }
-  input.ng-valid {
-      background-color:lightgreen;
-  }
-</style>
-<form action="/action_page.php">
-  <input type="text" placeholder="Username" id="username" required>  
+<body>
+<img src="assets/Capture.PNG">
+</body>
+<br>
+<form action="action_post.php">
+  <input type="text" placeholder="Username" ng-model="username">  
   <br><br>
-  <input type="text" placeholder="password" id="password" required>  
+  <input type="text" placeholder="password" ng-model="password">  
   <br><br>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <input type="submit" value="Sign In">
 </form>
+<body>

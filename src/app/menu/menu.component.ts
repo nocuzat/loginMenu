@@ -14,7 +14,8 @@ export class MenuComponent implements OnInit {
   arrayOne = [
     {path:"login",name:"login"},
     {path:"contact",name:"contact"},
-    {path:"about",name:"about"}]
+    {path:"about",name:"about"},
+    {path:"form",name:"form"}]
 
     constructor(private router: Router) { 
     }
